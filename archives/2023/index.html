@@ -1626,7 +1626,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/MyBlog/js/app.js","parallax":"/MyBlog/js/plugins/parallax.js","rightMenu":"/MyBlog/js/plugins/rightMenu.js","rightMenus":"/MyBlog/js/plugins/rightMenus.js","sites":"/MyBlog/js/plugins/tags/sites.js","friends":"/MyBlog/js/plugins/tags/friends.js","contributors":"/MyBlog/js/plugins/tags/contributors.js","search":"/MyBlog/js/search/hexo.js"},"css":{"style":"/MyBlog/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1685715091634),
+    lastupdate: new Date(1685715377113),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate"],
       for_post: ["toc"],
@@ -2888,7 +2888,7 @@ In the current healthcare landscape, Alzheimer’s Disease (AD), an irreversible
   function pjax_giscus() {
     const HEAD = check_giscus();
     if (!HEAD) return;
-    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"huziyu-hub/blog_comment","repo-id":"R_kgDOJqMWaA","category":"Announcements","category-id":"DIC_kwDOJqMWaM4CW4pI","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","lang":"zh-CN"},pdata.commentConfig)
+    let cfg = Object.assign({"theme":{"light":"light","dark":"dark"},"repo":"huziyu-hub/blog_comment","repo-id":"R_kgDOJqMWaA","category":"Announcements","category-id":"DIC_kwDOJqMWaM4CW4pI","mapping":"pathname","reactions-enabled":"1","emit-metadata":"0","lang":"en"},pdata.commentConfig)
     const script = document.createElement('script');
     script.setAttribute('src', 'https://giscus.app/client.js');
     Object.keys(cfg).forEach(k=>{
